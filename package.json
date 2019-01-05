@@ -1,0 +1,14 @@
+{
+  "name": "get-bs-id",
+  "version": "1.0.0",
+  "description": "Get Movies ID from BetaSeries from a list of films name",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "get-bs-id": "./cli.js"
+  },
+  "author": "Cyril Krylatov",
+  "license": "ISC"
+}
