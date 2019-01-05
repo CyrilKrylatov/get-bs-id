@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 
 const config = require('./config/config');
+const fileToArray = require('./functions/fileToArray');
 
-const [,, ...args] = process.argv;
+const arrayFilms = fileToArray.getArray(config.filmsFile);
 
-console.log(`Hello World ${config.apiKey} ${args}`);
+console.log(arrayFilms);

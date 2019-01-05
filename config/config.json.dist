@@ -1,3 +1,4 @@
 {
-  "apiKey": "0"
+  "apiKey": "0",
+  "filmsFile": "./data/films.txt"
 }
