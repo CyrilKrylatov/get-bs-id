@@ -1,4 +1,4 @@
-{
+module.exports = {
   "apiKey": "0",
   "filmsFile": "./data/films.txt"
 }
