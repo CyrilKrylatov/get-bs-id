@@ -6,11 +6,6 @@ const requestApi = require('./functions/requestApi');
 
 const arrayFilms = fileToArray.getArray(config.filmsFile);
 
-getMovieIds = () => {
-    for (film in arrayFilms) {
-        const filmId = requestApi.getFilmId(config.apiKey, arrayFilms[film])
-    }
-
+for (film in arrayFilms) {
+    requestApi.getFilmId(config.apiKey, arrayFilms[film])
 }
-
-getMovieIds();
